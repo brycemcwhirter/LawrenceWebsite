@@ -1,6 +1,11 @@
 ---
 
----
+import HeroBanner from "../components/index/HeroBanner.astro";
+import TourDates from "../components/index/TourDates.astro";
+import Merch from "../components/index/Merch.astro";
+import Videos from "../components/index/Videos.astro";
+import ChickenFinger from "../components/index/ChickenFinger.astro";
+import Wrapper from "../components/Wrapper.astro";---
 
 <html lang="en">
 	<head>
@@ -11,6 +16,12 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+	<Wrapper>
+		<HeroBanner />
+		<TourDates />
+		<Merch />
+		<Videos/>
+		<ChickenFinger/>
+	</Wrapper>
 	</body>
 </html>
